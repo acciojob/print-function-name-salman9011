@@ -1,7 +1,6 @@
-//your JS code here. If required.
-function functionName() {
-    alert(arguments.callee.name);
-}
+const functionName = function() {
+    alert(functionName.name);
+};
 
 // Call the function
 functionName();
