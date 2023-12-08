@@ -1,5 +1,5 @@
 const functionName = function() {
-    alert(arguments.callee.name);
+    alert("functionName");
 };
 
 // Call the function
